@@ -66,7 +66,8 @@
           <li>git pull origin main: checks to see if your local branch is up to date with the origin's main branch</li>
           <li>git commit -m"message": confirms the changes to be pushed onto Github with a message that describes the changes</li>
           <li>git push origin "new-branch": syncs the new branch with Github</li>
-          <li>git branch -d branch_name deletes a branch</li>
+          <li>git branch -d branch_name deletes a branch. Git will not let you delete the branch you're currently checking out, so make sure you check out another branch (for example, main) before running this git command</li>
+          <li>git branch -d branch_name will not let you delete a branch until it's commited and pushed. If you need to delete a branch that hasn't been commited and pushed, run this git command: git branch -D branch_√name</li>
         </ul>
         <h3>Other Notes:</h3>
         <ul>
