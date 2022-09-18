@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -77,15 +78,19 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
+          <li>link Javascript files at the <strong>bottom of the body element</strong> with the script element like so: &lt;script src = "file location"&gt;&lt;/script&gt;</li>
           <li>Variables are containers that store values, and you can name your variable almost anything. Use semicolons to separate statements</li>
+          <li>JavaScripts are run by the computer from top to bottom</li>
+          <li>Declare a variable by typing var, followed by the variable name. To assign values to variables, follow with &ldquo;=&rdquo; + value.<br>For example: var MyVarialbe = 'Bob'. Retrive values by calling variable names.</li>
+          <li>Code blocks are placed in curly brackets</li>
           <li>JavaScript is case-sensitive</li>
-          <li>After declaring a variable, give it a value. For example: MyVarialbe = 'Bob'. Retrive values by calling variable names.</li>
+          <li>End each line in JacaScript with a semicolon</li>
           <li>Different types of JavaScript data:
             <ol>
               <li>String: a sequence of text. For example: let MyVariable = 'Bob'</li>
               <li>Number: numbers do not need quote marks</li>
               <li>Boolean: true or false. Also doesn't need quote marks</li>
-              <li>Array: this allows us to store multiple values in a single reference.<br>For example: let MyVariable = [1, 'bob', 'steve', 10]. When calling a variable value in an array, do MyVariable[0], MyVariablew[1], MyVariable[2], etc  </li>
+              <li>Array: this allows us to store multiple values in a single reference.<br>For example: let MyVariable = [1, 'bob', 'steve', 10]. When calling a variable value in an array, use the index number, which is the position of the data in the array, with the first item being index [0]. For example: MyVariable[0], MyVariablew[1], MyVariable[2], etc. The index number of an array is not to be confused with the length of the array. The length of the array is the number of items in the array, while the first item in an array has the index number of 0.</li>
               <li>Object: this can be anything. Everything in JavaScript is an object and can be stored in a variable. For example: let MyVariable = document.querySelector('h1')</li>
             </ol>
           </li>
@@ -99,8 +104,8 @@
             <li>String Type: textual data</li>
             <li>Symbol Type</li>
           </ol>
-          <ol><b>Objects</b>
-            <li>An object is a value in memory that is referenced by an identifier</li></ol>
+          <ol><b>Objects</b></ol>
+            <li>An object is a value in memory that is referenced by an identifier</li>
           </li>
           <li>Insert comments in one of these two ways: /* YOUR COMMENT */  or  // YOUR COMMENT</li>
           <li>Operators are math symbols that produce results based on two values:
@@ -117,11 +122,20 @@
           <li>Events: real interactivity on a website requires event handlers: code structures that listen for activity in the brower and run codes in response. For example: the click event</li>
           <li>Variants can be assigned and re-assigned any value and any type of value</li>
         </ul> 
+        <h3>Common JavaScript Methods and Functions:</h3>
+          <ul>
+            <li>Console.log(variable name): a method used to output messages to browser consoles and to test codes. Note that the variable names we put inside the parentheses are called Arguments</li>
+            <li>Conditional: if (var = X) { run code A; } else if (var = Y) { run code B; } else { run code C; }</li>
+            <li>"++" is equal to "+1". For example: X++ means X+1</li>
+            <li>The built-in property "length" allows you to run for loops that depends on the length of your array. For example: variableName.length</li>
+            <li>"For loops" start with "for", follow by a three-part conditional sentences enclosed in parentheses, and then by a code block enclosed in curly brackets. For example: for(varName X = 0; X < varName.length; X++) { Code Block } This will loop the code multiple times, with X incrementing by 1 after each loop, as long as X is smaller than the length of the variant</li>
+          </ul>
       </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src = "./assets/script.js"></script>
   </body>
 </html>
